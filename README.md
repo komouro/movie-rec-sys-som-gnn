@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project aims to develop a robust movie recommendation system that leverages various modeling techniques to generate personalized movie suggestions. By analyzing film plot summaries and associated metadata, thematically relevant and diverse recommendations can be provided. More specifically, different approaches to building a movie recommendation system are explored, based on movie plots and genres. The work aims to understand the strengths and weaknesses of various recommendation techniques in order to provide meaningful suggestions for users. Three primary models were implemented and evaluated:
+This project aims to develop a robust movie recommendation system that leverages various modeling techniques to generate personalized movie suggestions. By analyzing film plot summaries and associated metadata, thematically relevant and diverse recommendations can be provided. More specifically, different approaches to building a movie recommendation system are explored in Python, based on movie plots and genres. The work aims to understand the strengths and weaknesses of various recommendation techniques in order to provide meaningful suggestions for users. Three primary models were implemented and evaluated:
 
 1. **Content-based Recommendations using Cosine Similarity**: This model relies solely on the text of movie plot summaries to find similarities between films. While effective for finding basic matches, this method has limitations in its ability to capture deeper thematic or emotional connections.
    
