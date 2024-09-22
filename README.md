@@ -24,6 +24,7 @@ A graph neural network (GNN) is used for processing data that can be represented
 
 We utilize data that is extracted from Wikipedia and Freebase and was introduced in previous research work [1]. A complete dataset of 42204 movies is formulated, including the title, plot summary and genres of each movie.
 
+|                                             |                                 |
 |---------------------------------------------|---------------------------------|
 | Number of samples                           | 42204                           |
 | Number of features                          | 3                               |
@@ -89,7 +90,7 @@ We finally tried a grid size of 30x30 with PCA. We observe that the heatmap belo
 
 After finalizing the SOM configuration, we identified a suitable number of clusters for K-means. The final version of the model included 100 clusters. For reference, the following diagram depicts an example of cluster assignment on the SOM when the number of clusters is 10.
 
-
+![Grid 30x30 with Cluster Assignments](./plots/k_means_clustering_grid.png)
 
 Key takeaway: Larger grid sizes provide more neurons, allowing for finer granularity in clustering. This results in more nuanced groupings of movies, which is desirable for a recommendation system. However, the training time increases significantly and if the data is high-dimensional or noisy, the grid may still exhibit areas of concentration, as seen in the second scenario (30x30 grid without PCA). Additionally, PCA helps by projecting the data into a lower-dimensional space, which can simplify the clustering process and lead to more even distributions across the SOM. When PCA is applied, the SOM shows a more uniform heatmap, indicating better clustering and representation of the movies. Without PCA, high-dimensional data overwhelms the map, leading to concentrated clusters.
 
