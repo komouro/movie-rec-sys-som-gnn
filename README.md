@@ -88,7 +88,7 @@ We finally tried a grid size of 30x30 with PCA. We observe that the heatmap belo
 
 ![Grid 30x30 Heatmap with PCA](./plots/som_30x30_pca_heatmap.png)
 
-After finalizing the SOM configuration, we identified a suitable number of clusters for K-means. The final version of the model included 100 clusters. For reference, the following diagram depicts an example of cluster assignment on the SOM when the number of clusters is 10.
+After finalizing the SOM configuration, we identified a suitable number of clusters for K-means. The final version of the model included 100 clusters. For reference, the following diagram depicts an example of cluster assignment on the SOM when the number of clusters is 12.
 
 ![Grid 30x30 with Cluster Assignments](./plots/k_means_clustering_grid.png)
 
